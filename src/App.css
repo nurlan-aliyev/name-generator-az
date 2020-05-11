@@ -1,38 +1,126 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu:wght@700&display=swap');
+
+
+*{
+  box-sizing: border-box;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.base-container{
+  width: 700px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 6px rgba(0,0,0,0.49);
+}
+.header-element{
+  width: 100%;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.footer-element{
+  width: 100%;
+  text-align: center;
+  
+}
+.name-link{
+  text-decoration: none;
+  color: inherit;
+  
+}
+.name-link:hover{
+  color:#9061ff;
+  border-bottom: 1px solid #6a2bff;
+}
+.main-content{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 99%;
+  height: 100%;
+  box-shadow: inset 0px 3px 10px -4px rgba(0,0,0,0.25);
+}
+.btn-separator{
+  padding: 3px;
+}
+.primary-btn{
+	background-color:#44c767;
+	border-radius:5px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.primary-btn:hover {
+	background-color:#5cbf2a;
+}
+.primary-btn:active {
+	position:relative;
+	top:1px;
+}
+.name-input{
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 575.98px) {
+  *{
+  box-sizing: border-box;
+    text-align: center;
+}
+  .base-container{
+    width: 350px;
+  }
+  .name-input{
+  padding: 7px;
+  border-radius: 5px;
+}
+  .main-content{
+    width: 97%;
+    box-shadow: inset 0px 3px 10px -4px rgba(0,0,0,0.25);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 767.98px) {
+   *{
+  box-sizing: border-box;
+    text-align: center;
+}
+  .base-container{
+    width: 700px;
+    height: 300px;;
   }
-  to {
-    transform: rotate(360deg);
+  .name-input{
+  padding: 10px;
+  border-radius: 5px;
+}
+  .main-content{
+    width: 97%;
+    box-shadow: inset 0px 3px 10px -4px rgba(0,0,0,0.25);
   }
+}
+@media (min-width: 900px) { 
+  *{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.base-container{
+  width: 700px;
+  height: 500px;
+}
 }

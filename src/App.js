@@ -72,7 +72,7 @@ const generateName = () => {
   "yol","əsər","xəritə","sistem","şəxs","oxucu","qida","teorem","qanun","quş",
   "problem","bilik","güc","krokodil","dəryaz","sənaye","çəkic","şey","soba","əjdaha","vəziyyət",
   "keçəl","eqoist","kərpic","beton","çeşka","ölkə","imtahan","kino","təchizat","serial","kələm kəpənəyi",
-  "qarpız yarpağı","pişik","texnoloq","ordu","kamera","qapı","şkaf","ətraf-mühit","şalban",
+  "qarpız yarpağı","pişik","texnoloq","ordu","kamera","qapı","şkaf","ətraf-mühit",
   "şlaqbaum","ay","yazıçı","balıqçı","çəkməçi","müğənni","bıçaq","qılınc","bizon","öküz","cücə",
   "pişik","cimcimə","panda","koala","müəllim","mexanik","usta","mühəndis","şair","gecə","şorba","rəssam",
   "velosipedçi","blogger","maşinist","çaymen","tələbə","şagird","mühasib","sürücü","qərar","hadisə","pilot",
